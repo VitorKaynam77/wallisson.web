@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio and profile for a video maker showcasing outstanding audiovisual projects.">
+    <title>WALLISSON WESKER VIDEOMAKER</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        header nav {
+            margin-top: 10px;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        header nav a:hover {
+            color: #ff6600;
+        }
+
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        .about, .services, .portfolio, .testimonials, .contact {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .about {
+            background: #f4f4f4;
+        }
+
+        .about h2, .services h2, .portfolio h2, .testimonials h2, .contact h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #ff6600;
+        }
+
+        .services ul, .portfolio ul {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 0;
+            justify-content: center;
+        }
+
+        .services ul li, .portfolio ul li {
+            flex: 1 1 calc(33.333% - 20px);
+            margin: 10px;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .portfolio ul li img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .testimonials {
+            background: #222;
+            color: #fff;
+        }
+
+        .testimonials ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .testimonials ul li {
+            margin-bottom: 20px;
+        }
+
+        .testimonials ul li p {
+            font-style: italic;
+        }
+
+        footer {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        footer ul li {
+            margin: 0 10px;
+        }
+
+        footer ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        footer ul li a:hover {
+            color: #ff6600;
+        }
+
+        @media (max-width: 768px) {
+            .services ul li, .portfolio ul li {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WALLISSON WESKER</h1>
+        <nav>
+            <a href="#about">Sobre</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#testimonials">Bastidores</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Capturando histórias através das lentes</h2>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Sobre mim</h2>
+        <p>Olá, meu nome é Wallisson Wesker e sou apaixonado por dar vida a histórias por meio da edição de conteúdo. Com 30 anos de idade e mais de 7 anos de experiência profissional, dedico meu trabalho a transformar ideias em narrativas visuais que inspiram e conectam pessoas. 
+        
+            Desde a edição de vídeos até a manipulação criativa no Photoshop, cada projeto que realizo é uma oportunidade de explorar novas possibilidades e entregar resultados excepcionais. Meu objetivo é sempre capturar a essência de cada ideia e traduzi-la em algo visualmente impactante.
+            
+            Acreditando na combinação entre técnica, criatividade e paixão, estou aqui para colaborar com você e levar o seu projeto para o próximo nível. Vamos criar algo incrível juntos!.</p>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Services</h2>
+        <ul>
+            <li><strong>Produção de Vídeo</strong><br>Produção de vídeo de alta qualidade adaptada às suas necessidades.</li>
+            <li><strong>Edição</strong><br>Edição de vídeo especializada para resultados profissionais e refinados.</li>
+            <li><strong>Mentoria</strong><br>Orientação para tornar seus projetos visuais um sucesso.</li>
+        </ul>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <ul>
+            <li><img src="project1.jpg" alt="Project 1"><p>Project 1 Description</p></li>
+            <li><img src="project2.jpg" alt="Project 2"><p>Project 2 Description</p></li>
+            <li><img src="project3.jpg" alt="Project 3"><p>Project 3 Description</p></li>
+        </ul>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2>Clientes Satisfeitos</h2>
+        <ul>
+            <li><p>"Outstanding work, beyond expectations!" - Client A</p></li>
+            <li><p>"Professional, creative, and timely delivery." - Client B</p></li>
+            <li><p>"An absolute pleasure to work with." - Client C</p></li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contato</h2>
+        <p>Sinta-se à vontade para entrar em contato para dúvidas ou colaborações:</p>
+        <p>Email: <a href="mailto:wallissonwesker@gmail.com">wallissonwesker@gmail.com</a></p>
+        <p>WhatsApp: 41 9814-0279</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Video Maker Portfolio. All rights reserved.</p>
+        <ul>
+            <li><a href="https://www.instagram.com/wallissonwesker/">Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
